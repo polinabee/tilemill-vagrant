@@ -5,7 +5,7 @@ config.vm.provider "virtualbox" do |v|
   end
 	config.vm.define "geoserver2" do |geo|
 	    geo.vm.box = "ubuntu/trusty64"
-	    #config.vm.provision :shell, path: "bootstrap.sh"
+	    config.vm.provision :shell, path: "bootstrap.sh"
 	    #geo.vm.box = "ubuntu/xenial64"
 	    geo.vm.hostname = 'geoserver2'
 	
