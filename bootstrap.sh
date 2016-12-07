@@ -21,6 +21,6 @@ echo "{
     "'"host"'": false,
     "'"listenHost"'": "'"0.0.0.0"'",
     "'"syncURL"'": "'"https://api.mapbox.com"'",
-    "'"server"'": false,
+    "'"server"'": true,
     "'"verbose"'": "'"on"'"
 }" | sudo tee '/usr/share/tilemill/lib/config.defaults.json'
